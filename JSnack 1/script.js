@@ -4,7 +4,7 @@ document.getElementById('btn').addEventListener('click', function(){
     let nomeInlista = false;
     for (let i = 0; i < lista.length; i++){
         const nomeTrovato = lista[i]
-        if(nomeAccesso === lista){
+        if(nomeAccesso === lista[i]){
             nomeInlista = true;
         } else{
             nomeInlista = false;
