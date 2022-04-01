@@ -1,10 +1,8 @@
-let x = 0;
-let array = [];
-for(let i = 0; i < 5; i++){
-    x = prompt('inserisci un numero')
-    if(x % 3 ==0){
-        array.push(x);
-    }else {
-        
+
+let numeridispari = [];
+for(let i = 0; i < 6; i++){
+   let numero =parseInt( prompt('inserisci un numero'))
+    if(numero %2 !== 0){
+    numeridispari.push(numero);
     }
 }
